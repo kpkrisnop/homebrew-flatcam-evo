@@ -2,9 +2,9 @@ class FlatcamEvo < Formula
   include Language::Python::Virtualenv
 
   desc "2D Computer-Aided PCB Manufacturing (patched fork)"
-  homepage "https://github.com/KP-Krisnop/flatcam-evo"
-  url "https://github.com/KP-Krisnop/flatcam-evo/archive/refs/tags/v8.9.95.2.tar.gz"
-  sha256 "4f1502e2854dd6ef5c7bebff83d9854b29252ae9b25e3661a33a9d4a1645a4a0"
+  homepage "https://github.com/kpkrisnop/flatcam"
+  url "https://github.com/kpkrisnop/flatcam/archive/refs/tags/v8.9.95.2.tar.gz"
+  sha256 "a99c91d175f99fe86b88bd265457ea9e92dd4c962969da97c01817b0a8adc4e1"
 
   depends_on "pkg-config" => :build
   depends_on "freetype"

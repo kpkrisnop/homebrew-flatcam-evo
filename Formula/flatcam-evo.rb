@@ -3,8 +3,8 @@ class FlatcamEvo < Formula
 
   desc "2D Computer-Aided PCB Manufacturing (patched fork)"
   homepage "https://github.com/kpkrisnop/flatcam"
-  url "https://github.com/kpkrisnop/flatcam/archive/refs/tags/v8.9.95.4.tar.gz"
-  sha256 "91218d55b65b9df3e34607775a90c6be47cbad67a103de63ecb782e1139c2060"
+  url "https://github.com/kpkrisnop/flatcam/archive/refs/tags/v8.9.95.5.tar.gz"
+  sha256 "de256cb7f64dac34e5a7ee54d84c73bf1ca59f16c344a3e25bd592ab7f61af01"
 
   depends_on "pkg-config" => :build
   depends_on "freetype"
